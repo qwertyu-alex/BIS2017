@@ -1,0 +1,130 @@
+/*This is how comments are written in CSS*/
+
+/*Generel style settings for the body element in the HTML file*/
+body {
+  background-image: url("../images/louisv_repeat.jpg");
+  font-family: Verdana;
+
+}
+
+@font-face
+{
+font-family: CBSRegular;
+src: url('../fonts/cbs_b-webfont.woff')
+}
+
+#mydiv
+{
+margin: 30px 0px 30px 0px;
+}
+
+#content{
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f3ebe0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px 30px #f3ebe0;
+  margin-top: 30px;
+}
+
+h2{
+  font-size: 50px;
+  margin-bottom: 0;
+  display: inline;
+}
+
+#playButton{
+  margin: auto;
+  display: block;
+  height: 100px;
+  width: auto;
+}
+
+
+.center-text{
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {font-family:CBSRegular;}
+
+/*Applying table settings in style.css file */
+table {border-collapse:collapse; border: 1px solid #616161;}
+th, td {font-family:CBSRegular; border-color: #616161; text-align: left;}
+th {font-size: 30px}
+
+img{
+  clear: both;
+  max-width: 600px;
+  margin: 0;
+  display: block;
+}
+
+.disguisedLink{
+  color: black;
+  text-decoration: none;
+  cursor: text;
+}
+
+.disguisedLink:hover{
+  cursor: text;
+}
+
+.disguised{
+  color: black;
+  text-decoration: none;
+  cursor: default;
+}
+.disguised:hover{
+  cursor:default;
+}
+
+p{
+      font-size: 18px;
+}
+
+*{
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    20% { opacity: 0.7; }
+    100%   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    0% { opacity: 0; }
+    20% { opacity: 0.7; }
+    100%   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    0% { opacity: 0; }
+    20% { opacity: 0.7; }
+    100%   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    0% { opacity: 0; }
+    20% { opacity: 0.7; }
+    100%   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    0% { opacity: 0; }
+    20% { opacity: 0.7; }
+    100%   { opacity: 1; }
+}
